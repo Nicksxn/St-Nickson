@@ -1,0 +1,62 @@
+END OF THE MONTH ASSESSMENT
+
+Objective
+1)B whoami
+
+2)G man
+
+3)J File permissions
+
+4)b ls
+
+5)d Current Directory
+
+6)d change to /a/b Directory
+
+7)a git add
+
+8)d Repository metadat and version history
+
+9)c The current checkout commit 
+
+10)a copy file1 to file 2
+
+11) list the content of a Directory
+
+
+Theory Part
+1)Git is a distributed version control system,that think of it's data like a stream of snapshot
+
+why is git important
+)Git makes it easy for developer to collaborate and work on the same code base
+)Git help developer to make change and keep track of changes when working on a project
+)with Git it is easy to contribute to open source project 
+)with Git team menber can review code ,leave comment and suggestion
+
+2)
+i)You =r identity
+Aftet installing Git the first thing you should do is set your name and email address .. Because every commit you make uses the information you preovide
+you can do that using 
+git config --global user.name
+git config --global user.email
+
+ii)Initialize a Repository  in a new or existing Directory in your local machine using:
+git Init
+it crate a subdirectory with .git file that contain Repository metadata and version history
+
+!!!)craete a Repository on your github
+make it public if you wish
+
+iV)cloaning a new  Repository
+create a README file, add it to  the staging area with
+git add README.md
+Save change with 
+git commit -m "first commit"
+cloan the Repository with
+git remote add origin https://github.com/
+git push to upload your local commit to your remote Repository
+git push -u origin main
+
+v) 
+
+
